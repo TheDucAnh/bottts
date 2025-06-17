@@ -1,0 +1,17 @@
+{
+  "name": "discord-tts-bot",
+  "version": "1.0.0",
+  "description": "Bot Discord đọc văn bản bằng nhiều ngôn ngữ",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.16.0",
+    "discord.js": "^14.0.0",
+    "dotenv": "^16.0.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "ffmpeg-static": "^4.4.0",
+    "gtts": "^2.0.0"
+  }
+}
